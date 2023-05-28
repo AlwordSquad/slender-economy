@@ -1,0 +1,14 @@
+name: SEcommand
+version: '${version}'
+main: org.alword.secommand.Main
+api-version: 1.19
+commands:
+  heal:
+    description: Эта команда лечит
+    usage: /<command>
+  feed:
+    description: Эта команда кормит
+    usage: /<command>
+  fly:
+    description: Эта команда отвечает за полёт
+    usage: /<command>
