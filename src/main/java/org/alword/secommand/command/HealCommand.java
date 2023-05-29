@@ -16,7 +16,7 @@ public class HealCommand implements CommandExecutor {
         }
 
         if (!sender.hasPermission("se.vip")) {
-            sender.sendMessage(ChatColor.AQUA + "Недостаточно прав");
+            sender.sendMessage(ChatColor.DARK_RED + "Недостаточно прав");
             return true;
         }
 
