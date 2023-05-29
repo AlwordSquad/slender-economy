@@ -23,6 +23,7 @@ public class FeedCommand implements CommandExecutor {
         Player player = (Player) sender;
         if (command.getName().equalsIgnoreCase("feed")){
             player.setFoodLevel(20);
+            player.setSaturation(20);
             player.sendMessage(ChatColor.AQUA + "Вы поели");
         }
 

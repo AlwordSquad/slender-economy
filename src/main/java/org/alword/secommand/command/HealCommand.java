@@ -22,7 +22,7 @@ public class HealCommand implements CommandExecutor {
 
         Player player = (Player) sender;
         if (command.getName().equalsIgnoreCase("heal")){
-            double maxHealth = player.getAttribute(Attribute.GENERIC_MAX_HEALTH).getDefaultValue();
+            double maxHealth = player.getAttribute(Attribute.GENERIC_MAX_HEALTH).getBaseValue();
             player.setHealth(maxHealth);
             player.sendMessage(ChatColor.AQUA + "Здоровье востановлено");
         }
