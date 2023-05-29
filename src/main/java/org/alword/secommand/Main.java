@@ -9,8 +9,7 @@ public final class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getCommand("fly").setExecutor(new FlyCommand());
-
+        getServer().getPluginCommand("fly").setExecutor(new FlyCommand());
         getServer().getPluginCommand("heal").setExecutor(new HealCommand());
         getServer().getPluginCommand("feed").setExecutor(new FeedCommand());
     }
