@@ -6,9 +6,16 @@ commands:
   heal:
     description: Эта команда лечит
     usage: /<command>
+    permission: se.vip
   feed:
     description: Эта команда кормит
     usage: /<command>
+    permission: se.vip
   fly:
     description: Эта команда отвечает за полёт
     usage: /<command>
+    permission: se.vip
+  peaceful:
+    description: Мирный режим
+    usage: /<command>
+    permission: se.vip
